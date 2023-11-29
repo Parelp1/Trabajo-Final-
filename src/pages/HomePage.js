@@ -3,9 +3,6 @@ const HomePage =(props)=>{
     return(
         <body>
     <main class="holder">
-        <div class="homeimg">
-            <img src= "images/home/img01.jpg" alt="imagenavion"/>
-        </div>
         <div class="columnas">
             <section class="bienvenidos">
                 <h2>Bienvenidos</h2>

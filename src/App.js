@@ -10,6 +10,7 @@ import Nosotros from './pages/Nosotros';
 import Ayuda from './pages/Ayuda';
 import Api from './pages/Api';
 
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -17,6 +18,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
+      
       <BrowserRouter>
         <Nav />
           <Routes>

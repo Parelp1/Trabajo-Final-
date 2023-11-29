@@ -6,6 +6,10 @@
 
     
     /*Fin Home*/
+    h2{
+        color: #2e64a1;
+        font-weight: 500;
+    }
     body{
         font-family: 'Open Sans', sans-serif;
         font-size: 16px;
