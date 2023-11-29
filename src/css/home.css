@@ -1,0 +1,119 @@
+/*    font-family: 'Asap', sans-serif;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Open Sans', sans-serif;
+    */
+
+
+    
+    /*Fin Home*/
+    body{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    #logo_holder{
+        display: flex;
+        justify-content: center;
+    }
+    
+    header h1{
+        color: white;
+        font-weight: 300;
+        font-style: italic;
+        display: inline;
+        position: relative; /*Position relativa y el bottom ayudan a centrar el titulo*/
+        bottom: 0px;
+        margin-left: 12px;
+    }
+    
+    .holder{
+        width: 960px;
+        margin: 0 auto;
+        
+    }
+    h2{
+        color: #2e64a1;
+        font-weight: 500;
+    }
+    .columnas{ /*Esto separa ambos h2*/
+        display: flex;
+        gap: 20px;
+    }
+    
+    .bienvenidos{
+        width: 75%; /*El espacio que va a ocupar*/
+        
+    }
+    .testimonios{
+        width: 25%;
+        margin-left: 20px;    
+    }
+    
+    .testimonio{
+        background-color: #ddd;
+        padding: 16px;
+    
+    }
+    .testimonios .cita{
+        font-weight: bold;
+        font-size: 20px;
+        display: block;
+        font-style: italic  ;
+    }
+    .testimonio .autor{
+        font-size: 12px;
+        margin: 16px 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .promos h3{
+        font-family: 'Open Sans', sans-serif;
+        color: #2e64a2;
+        font-weight: 200
+    }
+    
+    .promos img{
+        display: flex;
+        border-radius: 15px;
+    }
+    .promos{
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 15px 12px 5px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        background-color: aliceblue;
+    }
+    
+    .promos img:hover{
+        transform: scale(1.1);
+        filter: blur(2px);
+    }
+    .alojamiento img{
+        border-radius: 15px;
+    }
+    .alojamiento img:hover{
+        transform: scale(1.1);
+        filter: blur(2px);
+    }
+    header{
+        background-color: #2e64a1;
+        padding: 16px; 
+        /*Me da un espacio para que quede lindo*/
+    }
+    
+    footer{
+        background-color: #ddd;
+        padding: 25px 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .holder{
+        width: 960px;
+        margin: 0 auto;
+    }
+    

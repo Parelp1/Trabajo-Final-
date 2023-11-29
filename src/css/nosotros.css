@@ -1,0 +1,59 @@
+/*Nosotros*/
+
+
+.historia p{
+    font-size: 16px;
+
+}
+
+.personas{
+    display: flex;
+    /*gap: 20px;*/
+    justify-content: space-between;
+    
+}
+
+.persona{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 15px 12px 5px;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+.persona img{
+    border-radius: 50%;
+    width: 50%;
+    box-shadow: 0 0 2px black;
+    
+}
+
+.persona h5,
+.persona h6{
+    margin: 0;
+    color: #2e64a1;
+    font-weight: normal;
+
+}
+
+.persona h5{
+    font-size: 15px;
+    margin-bottom: 10;
+    
+
+}
+
+.persona h6{
+    margin-top: 10;
+    font-size: 13px;
+    font-style: italic;
+
+}
+
+.persona p{
+    font-size: 14px;
+    text-align: left;
+}
+/*Fin Nosotros*/

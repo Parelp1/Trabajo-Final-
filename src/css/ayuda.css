@@ -1,0 +1,66 @@
+/* Inicio ayuda */
+
+.ayuda h3{
+    color: #2e64a1;
+    font-weight: 400;
+
+}
+
+.ayudas{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+.ayuda{
+
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px 12px 5px;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    
+}
+.eleccion h2{
+    text-align: start;
+    color: #2e64a1;
+    font-weight: 500;
+}
+.eleccion{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: justify;
+    background-color: aliceblue;
+}
+
+
+.consultas{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.consulta p input,
+.consulta textarea{
+    width: 70%;
+    background-color: #ddd;
+    border-radius: 8px;
+    border: 1px solid #999;
+    font-size: 14px;
+    padding: 6px 10px;
+}
+.consulta input[type="submit"]{
+    background-color: #6da9ed;
+    color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 4);
+    font-size: 16px;
+    padding: 6px;
+    width: auto;
+    cursor: pointer;  
+    border-radius: 10px;
+    transition: all 0.3s ease; 
+}
+.consulta input[type="submit"]:hover{
+    background-color: #2e64a1;
+
+}
